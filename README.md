@@ -12,7 +12,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-1. Download the project as a zip folder from [here](https://github.com/Bernard-Jr/MERN-Todo-List-Web-App/archive/main.zip).
+1. Download the project as a zip folder from [here](https://github.com/rajnikant-yadav/MERN-Todo-List/archive/refs/heads/master.zip).
 
 2. Extract the downloaded zip file to your preferred location.
 
@@ -77,20 +77,4 @@ Before you begin, ensure you have met the following requirements:
 
 - Use the app to add, edit, delete, and mark tasks as completed.
 
-## Contributing
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository on GitHub.
-2. Create a new branch with a descriptive name (`git checkout -b feature/add-feature`).
-3. Make your changes and commit them (`git commit -m 'Add feature'`).
-4. Push your changes to your fork (`git push origin feature/add-feature`).
-5. Open a pull request on the original repository.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-If you have any questions or want to report a bug, please feel free to contact me at bernarduser1@gmail.com.
