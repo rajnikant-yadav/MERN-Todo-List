@@ -1,0 +1,94 @@
+
+{    "swagger": "2.0",
+    "info": {
+      "title": "Todo API",
+      "description": "API for managing todos",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/get": {
+        "get": {
+          "summary": "Get all todos",
+          "responses": {
+            "200": {
+              "description": "Successful response"
+            }
+          }
+        }
+      },
+      "/update/{id}": {
+        "put": {
+          "summary": "Update a todo by ID",
+          "parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "required": true,
+              "description": "ID of the todo to update",
+              "type": "string"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Successful response"
+            }
+          }
+        }
+      },
+      "/delete/{id}": {
+        "delete": {
+          "summary": "Delete a todo by ID",
+          "parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "required": true,
+              "description": "ID of the todo to delete",
+              "type": "string"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Successful response"
+            }
+          }
+        }
+      },
+      "/add": {
+        "post": {
+          "summary": "Add a new todo",
+          "parameters": [
+            {
+              "in": "body",
+              "name": "body",
+              "required": true,
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "task": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Successful response"
+            }
+          }
+        }
+      },
+      "/health": {
+        "get": {
+          "summary": "Check server health",
+          "responses": {
+            "200": {
+              "description": "Healthy"
+            }
+          }
+        }
+      }
+    }
+  }
+  
